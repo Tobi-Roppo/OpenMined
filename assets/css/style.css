@@ -2255,7 +2255,7 @@ width: 100%;
 }
 
 .open-cast-btn {
-  background-color: #3498db; /* Change this color to your preference */
+  background: linear-gradient(to right, #10c46d 0%, #42c969 50%, #10c46d 100%);
   color: #ffffff; /* Text color */
   padding: 10px 20px; /* Adjust padding as needed */
   border-radius: 5px; /* Rounded corners */
@@ -2267,7 +2267,7 @@ width: 100%;
 }
 
 .open-cast-btn:hover {
-  background-color: #2980b9; /* Change this color to your preference */
+  background: linear-gradient(to right, #097541 0%, #2a8243 50%, #0b7542 100%);
 }
 
 
