@@ -136,8 +136,8 @@ function showScore(event) {
   resultElement.innerHTML = `
     <div class="alert ${alertClass} text-center">
       <h3>Your Score: ${userScore}/5</h3>
-      <a class="btn btn-primary mx-3 mt-3" href="quiz2.html">Try Again</a>
-      <a class="btn btn-primary mx 3 mt-3" href="quiz1.2.html">Proceed</a>
+      <a class="btn btn-success mx-3 mt-3" href="quiz2.html">Try Again</a>
+      <a class="btn btn-success mx 3 mt-3" href="quiz1.2.html">Proceed</a>
     </div>`;
 
   // Hide the questions and submit button
