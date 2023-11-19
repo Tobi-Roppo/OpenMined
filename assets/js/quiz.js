@@ -10,8 +10,8 @@ const quizData = [
     answer: "Bench",
   },
   {
-    question: "Which planet is known as the Red Planet?",
-    answer: "Mars",
+    question: "A natural concentration of valuable minerals, metals, or other economically significant substances that can be mined and processed for profit.",
+    answer: "Ore Body",
   },
   {
     question:
