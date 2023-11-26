@@ -2356,3 +2356,18 @@ width: 100%;
 .card-link:hover .card {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+.table thead th {
+  background: linear-gradient(to right, #10c46d 0%, #42c969 50%, #10c46d 100%);
+  color: #fff;
+}
+
+/* Optional: Add zebra striping to the table rows */
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Optional: Add hover effect to the table rows */
+.table tbody tr:hover {
+  background-color: #d1e1f0;
+}
