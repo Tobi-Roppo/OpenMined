@@ -9,10 +9,7 @@ const quizData = [
       "Ledge that forms a single level of operation above which mineral or waste materials are mined from the bench face.",
     answer: "Bench",
   },
-  {
-    question: "A natural concentration of valuable minerals, metals, or other economically significant substances that can be mined and processed for profit.",
-    answer: "Ore Body",
-  },
+  
   {
     question:
       "The material that must be removed or excavated to access and extract the ore. The non-valuable material that covers the valuable resource being mined.",
