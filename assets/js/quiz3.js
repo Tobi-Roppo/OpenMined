@@ -26,7 +26,7 @@ const quizData = [
     },
     {
       question: "What equipment is commonly used for excavation in open pit mining?",
-      options: ["a. Bulldozer", "b. Roller-bit rotary drill", "c. Bucketwheel excavator", "d. Front-end loader"],
+      options: ["A. Bulldozer", "B. Roller-bit rotary drill", "C. Bucketwheel excavator", "D. Front-end loader"],
       answer: "C",
     },
     {
@@ -101,8 +101,8 @@ const quizData = [
     },
     {
       question: "What term encompasses all methods utilizing water or a liquid solvent for mineral recovery from the Earth?",
-      options: ["a. Aqueous Extraction", "b. Mechanical Extraction", "c. Leaching"],
-      answer: "a",
+      options: ["A. Aqueous Extraction", "B. Mechanical Extraction", "C. Leaching"],
+      answer: "A",
     },
     {
       question: "What subclass is used for recovering soluble or fusible minerals, or those easily retrieved in slurry form?",
@@ -130,7 +130,7 @@ const quizData = [
       answer: "A",
     },
     {
-      question: "If the extraction is carried out on mineral in place using boreholes or other in-place methods, what is it called? __________",
+      question: "If the extraction is carried out on mineral in place using boreholes or other in-place methods, what is it called?",
       options: [],
       answer: "In situ leaching",
     },
