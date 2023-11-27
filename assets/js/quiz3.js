@@ -111,7 +111,7 @@ const quizData = [
     },
     {
       question: "In hydraulicking, what is the typical deposit dip?",
-      options: ["A. Preferably flat, with a maximum grade of 2-6%", "B. Nearly flat, with a 2-6% grade", "C. Preferably flat, with a maximum grade of 2-6%"],
+      options: ["A. Preferably flat, with a minimum grade of 2-6%", "B. Nearly flat, with a 2-6% grade", "C. Preferably flat, with a maximum grade of 2-6%"],
       answer: "B",
     },
     {
@@ -293,10 +293,19 @@ const quizData = [
       const userAnswer = answerElement.value.trim();
       const correctAnswer = quizData[index].answer;
   
-      if (userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
-        correctCount++;
+      if (Array.isArray(correctAnswer)) {
+       
+          if (correctAnswer.includes(userAnswer.toLowerCase())) {
+              correctCount++;
+          }
+      } else {
+        
+          if (userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
+              correctCount++;
+          }
       }
-    });
+  });
+  
   
     const totalQuestions = quizData.length;
     const userScore = correctCount;
@@ -322,6 +331,7 @@ const quizData = [
   
     questionsElement.style.display = "none";
     submitButton.style.display = "none";
+    document.getElementById('quizMessage').innerHTML = '<h2 class="title text-center">Test your Knowledge!</h2>';
   }
   
   initQuiz();
