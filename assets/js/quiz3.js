@@ -130,7 +130,7 @@ const quizData = [
       answer: "A",
     },
     {
-      question: "If the extraction is carried out on mineral in place using boreholes or other in-place methods, what is it called? __________ (fill in the blanks)",
+      question: "If the extraction is carried out on mineral in place using boreholes or other in-place methods, what is it called? __________",
       options: [],
       answer: "In situ leaching",
     },
@@ -141,28 +141,28 @@ const quizData = [
     },
     {
       question: "Which is not a possibility for borehole extraction?",
-      options: ["-MELTING OF IRON", "-In situ leaching of uranium, copper, gold, and silver", "-Dissolution of salt, potash, and trona; slurrying of phosphate, kaolin, oil sands, coal, gilsonite, and uranium."],
-      answer: "MELTING OF IRON",
+      options: ["A. MELTING OF IRON", "B. In situ leaching of uranium, copper, gold, and silver", "C. Dissolution of salt, potash, and trona; slurrying of phosphate, kaolin, oil sands, coal, gilsonite, and uranium."],
+      answer: "A",
     },
     {
-      question: "What method involves using wells to access mineral values beneath the earth by injecting water and/or a lixiviant into the deposit for mineral extraction? (Fill in the blanks)",
+      question: "What method involves using wells to access mineral values beneath the earth by injecting water and/or a lixiviant into the deposit for mineral extraction?",
       options: [],
       answer: ["Borehole extraction", "Borehole mining"],
     },
     {
-      question: "What is the underwater excavation of placer deposits from a floating vessel called a dredge, often with processing and waste disposal facilities? (fill in the blanks)",
+      question: "What is the underwater excavation of placer deposits from a floating vessel called a dredge, often with processing and waste disposal facilities?",
       options: [],
       answer: "Dredging",
     },
     {
       question: "What are the advantages of hydraulicking, excluding one option?",
-      options: ["Can operate a mine with a lot of workers", "Fairly high productivity of 100-300 yd3 (75-230 m3) per employee-shift", "Low mining cost (relative cost about 5%)", "Intermediate production rate", "Low capital cost; simple equipment and cycle", "Can automate some operations"],
-      answer: "Can operate a mine with a lot of workers",
+      options: ["A. Can operate a mine with a lot of workers", "B. Fairly high productivity of 100-300 yd3 (75-230 m3) per employee-shift", "C. Low mining cost (relative cost about 5%)", "D. Intermediate production rate", "E. Low capital cost; simple equipment and cycle", "F. Can automate some operations"],
+      answer: "A",
     },
     {
       question: "What are the advantages of dredging mining, excluding one option?",
-      options: ["Continuous operation with no breakage required", "Most productive of all mining methods (250 to 400 yd3, or 190 to 300 m3, of gravel per employee-shift)", "Lowest mining cost (relative cost < 5%)", "High production rate (maximum of 9 million yd3 or 7 million m3 a year)", "Low labor requirements (crew of 2 to 30 people)", "Good recovery (up to 70%)"],
-      answer: "Good recovery (up to 70%)",
+      options: ["A. Continuous operation with no breakage required", "B. Most productive of all mining methods (250 to 400 yd3, or 190 to 300 m3, of gravel per employee-shift)", "C. Lowest mining cost (relative cost < 5%)", "C. High production rate (maximum of 9 million yd3 or 7 million m3 a year)", "D. Low labor requirements (crew of 2 to 30 people)", "E. Good recovery (up to 70%)"],
+      answer: "E",
     },
     {
       question: "What is the typical deposit size for dredging?",
@@ -190,7 +190,7 @@ const quizData = [
         answer: "A",
       },
       {
-        question: "What can be very low in dredging? (fill in the blank)",
+        question: "What can be very low in dredging? ",
         options: [],
         answer: "Ore grade",
       },
