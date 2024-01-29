@@ -80,7 +80,7 @@
                   The Quarrying Process
                 </h3>
               </div>
-              <p class="text">
+              <p class="text mt-3">
                 Quarrying is the process of removing rock, sand, gravel or
                 other minerals from the ground in order to use them to produce
                 materials for construction or other uses. So, a quarry is any
@@ -92,20 +92,24 @@
           </div>
           <div>
             <div class="about-image mt-5 wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s">
-              <iframe src="../unity/WebFolder8/index.html" width="100%" height="800px"></iframe>
+              <iframe src="../unity/WebFolder8/index.html" width="100%" height="670px"></iframe>
             </div>
 
-            <div class="buttons mt-5 text-center">
-              <button class="main-btn wow fadeInUp mx-5" id="conditions">
+            <div class="buttons text-center">
+              <button class="main-btn wow fadeInUp mx-2" id="conditions">
                 Conditions
               </button>
-              <button class="main-btn wow fadeInUp mx-5" id="characteristics">
+              <button class="main-btn wow fadeInUp mx-2" id="characteristics">
                 Characteristics
               </button>
-              <button class="main-btn wow fadeInUp mx-5" id="application">
+              <button class="main-btn wow fadeInUp mx-2" id="application">
                 Application
               </button>
+              <button class="main-btn wow fadeInUp mx-2" id="cycle-of-operation">
+                Cycle of operation
+              </button>
             </div>
+
 
             <p class="text mt-5">
               <span>
@@ -123,37 +127,55 @@
               </span>
             </p>
 
-            <div class="video-container mt-5 wow fadeInLeftBig text-center" data-wow-duration="1s"
-              data-wow-delay="0.5s">
-              <iframe width="70%" height="400px" src="https://www.youtube.com/embed/kDgXLqj0x2Q" frameborder="0"
-                allowfullscreen></iframe>
+            <div class="container mt-5">
+              <div class="row">
+                <!-- Prezi Presentation -->
+                <div class="col-lg-6 mb-4">
+                  <div class="prezi-container">
+                    <!-- Paste the Prezi embed code here -->
+                    <iframe src="https://prezi.com/p/embed/y54ECIqsF5GusHQEdjAf/" id="iframe_container" frameborder="0"
+                      webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allow="autoplay; fullscreen"
+                      height="315" width="100%"></iframe>
+                  </div>
+                </div>
+                <!-- YouTube Video -->
+                <div class="col-lg-6 mb-4">
+                  <div class="video-container">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/kDgXLqj0x2Q" frameborder="0"
+                      allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
 
         </div>
-        <!-- Sliding modal -->
-        <div id="slidingModal" class="sliding-modal">
-          <span class="close-slide-modal" onclick="closeSlidingModal()">&times;</span>
-          <p class="text-white">Click the numbers to view details.</p>
-        </div>
 
-        <script>
-          // Function to open the sliding modal
-          function openSlidingModal() {
-            document.getElementById("slidingModal").style.left = "0";
-          }
-
-          // Function to close the sliding modal
-          function closeSlidingModal() {
-            document.getElementById("slidingModal").style.left = "-400px";
-          }
-
-          // Open the sliding modal after a delay of 10 seconds
-          setTimeout(openSlidingModal, 5000);
-        </script>
-        <!-- row -->
       </div>
-      <!-- container -->
+      <!-- Sliding modal -->
+      <div id="slidingModal" class="sliding-modal">
+        <span class="close-slide-modal" onclick="closeSlidingModal()">&times;</span>
+        <p class="text-white">Click the numbers to view details.</p>
+      </div>
+
+      <script>
+        // Function to open the sliding modal
+        function openSlidingModal() {
+          document.getElementById("slidingModal").style.left = "0";
+        }
+
+        // Function to close the sliding modal
+        function closeSlidingModal() {
+          document.getElementById("slidingModal").style.left = "-400px";
+        }
+
+        // Open the sliding modal after a delay of 10 seconds
+        setTimeout(openSlidingModal, 5000);
+      </script>
+      <!-- row -->
+    </div>
+    <!-- container -->
     </div>
   </section>
 
@@ -411,6 +433,59 @@
     </div>
   </div>
 
+  <div class="modal" id="cycle-of-operation-modal">
+    <div class="modal-content">
+      <span class="close-modal" id="close-cycle-of-operation-modal">&times;</span>
+      <section id="surface-mining">
+        <div class="about-area pt-70">
+          <div class="container mt-1">
+            <div class="row">
+              <div>
+                <div class="mt-1 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.5s">
+                  <div class="section-title text-center">
+                    <h3 class="title">Cycle of Operation <br> <span>in referenced with</span> </h3>
+                    <h4 class="title">
+                      <span>Hartman and Mutmansky, 2002</span>
+                    </h4>
+                  </div>
+
+                  <!-- section title -->
+                </div>
+              </div>
+              <div>
+                <div class="about-image mt-5 wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s">
+                  <div class="col mt-5">
+
+                    <p class="text mt-5"><strong>Cutting:</strong> diamond circular, chain, or wire saws; inline
+                      percussion drill or
+                      water-jet channeler(hard rock)</p>
+
+                    <p class="text mt-3"><strong>Wedging (freeing):</strong> drill and broach; wedge, plug and feathers;
+                      controlled
+                      blasting</p>
+                    <p class="text mt-3"><strong>Excavation/hoisting:</strong> crane, stiffleg derrick; front-end loader
+                    </p>
+                    <p class="text mt-3"><strong>Haulage:</strong> rail, truck, front-end loader</p>
+
+                  </div>
+
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="toggler-icon"> </span>
+                    <span class="toggler-icon"> </span>
+                    <span class="toggler-icon"> </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- container -->
+        </div>
+      </section>
+    </div>
+  </div>
+
   <div class="d-flex justify-content-between mt-5">
     <a href="quiz1.2.html" class="text-decoration-none">
       <button class="main-btn wow fadeInUp mx-5">Prev</button>
@@ -420,7 +495,7 @@
     </a>
   </div>
 
-  <footer id="footer" class="footer-area pt-120">
+  <footer id="footer" class="footer-area pt-120" style="z-index: -10;">
     <div class="container">
       <!-- subscribe area -->
       <div class="footer-widget pb-100">
